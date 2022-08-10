@@ -1,0 +1,71 @@
+@use "../../styles/partials/variables" as *;
+
+.edit-profile-container {
+  padding: 2.4rem 1.6rem;
+  background-color: $color-porsche;
+  height: calc(100vh - 147.5px);
+}
+
+.edit-profile {
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__form-label {
+    font-size: 1.6rem;
+    color: $color-madison;
+    display: block;
+    padding: 1.6rem 0;
+
+    &--sport {
+      flex-basis: 50%;
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+
+  &__form-text-input {
+    display: block;
+    width: 100%;
+    min-height: 3.6rem;
+    border-radius: 4px;
+    padding: 1.2rem;
+    margin-top: 8px;
+    border: 1px solid $color-white;
+
+    &:focus {
+      border: 1px solid $color-venice-blue;
+    }
+
+    &::placeholder {
+      color: $color-madison;
+    }
+  }
+
+  &__form-sports {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__form-checkbox {
+    width: 20px;
+    margin-left: 10px;
+  }
+
+  &__form-button {
+    cursor: pointer;
+    color: $color-white;
+    font-size: 2rem;
+    height: 4rem;
+    margin-top: 2.4rem;
+    border-radius: 4px;
+    padding: 0 3.2rem;
+    border: none;
+    background-color: $color-venice-blue;
+
+    &:hover {
+      background-color: $color-madison;
+    }
+  }
+}

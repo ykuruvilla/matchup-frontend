@@ -1,0 +1,12 @@
+@use "../../styles/partials/variables" as *;
+
+.player {
+  &__list {
+    background-color: $color-porsche;
+  }
+
+  &__list-title {
+    padding: 2.4rem 0 0 1.6rem;
+    color: $color-madison;
+  }
+}
