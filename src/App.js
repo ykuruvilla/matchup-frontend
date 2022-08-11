@@ -6,6 +6,7 @@ import Signup from "./components/Signup/Signup";
 import Welcome from "./components/Welcome/Welcome";
 import { Switch, Route, Redirect } from "react-router-dom";
 import EditProfile from "./components/EditProfile/EditProfile";
+
 import "./App.scss";
 
 function App() {
@@ -22,25 +23,25 @@ function App() {
     tableTennis: false,
   });
 
-  const data = {
-    _id: { $oid: "62f2f88be87bace95e1f61d0" },
-    firstName: "Yasha",
-    lastName: "Kuruvilla",
-    email: "yasha.kuruvilla@gmail.com",
-    postcode: "Sw8 2xs",
-    bio: "sdfasdfasdf",
-    latitude: { $numberDouble: "51.469729" },
-    longitude: { $numberDouble: "-0.137402" },
-    tennis: false,
-    squash: false,
-    badminton: false,
-    tableTennis: false,
-    bowling: true,
-    golf: true,
-    createdAt: { $date: { $numberLong: "1660090507814" } },
-    updatedAt: { $date: { $numberLong: "1660090507814" } },
-    __v: { $numberInt: "0" },
-  };
+  // const data = {
+  //   _id: { $oid: "62f2f88be87bace95e1f61d0" },
+  //   firstName: "Yasha",
+  //   lastName: "Kuruvilla",
+  //   email: "yasha.kuruvilla@gmail.com",
+  //   postcode: "Sw8 2xs",
+  //   bio: "sdfasdfasdf",
+  //   latitude: { $numberDouble: "51.469729" },
+  //   longitude: { $numberDouble: "-0.137402" },
+  //   tennis: false,
+  //   squash: false,
+  //   badminton: false,
+  //   tableTennis: false,
+  //   bowling: true,
+  //   golf: true,
+  //   createdAt: { $date: { $numberLong: "1660090507814" } },
+  //   updatedAt: { $date: { $numberLong: "1660090507814" } },
+  //   __v: { $numberInt: "0" },
+  // };
 
   return (
     <>
