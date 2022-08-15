@@ -2,10 +2,10 @@
 @use "../../styles/partials/mixins" as *;
 
 .welcome {
+  height: 100vh;
   background-color: $color-porsche;
   &__hero-overlay {
     height: 100%;
-    background-color: rgba($color: #07305d, $alpha: 0.3);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,6 +19,7 @@
   }
 
   &__hero-text {
+    font-size: 3.2rem;
     margin: 0 1.6rem;
     padding-bottom: 2.4rem;
     color: $color-white;
@@ -35,12 +36,14 @@
   }
 
   &__signup-button {
+    font-size: 2.4rem;
+    width: 90vw;
     cursor: pointer;
     color: $color-white;
     // margin: 0 auto;
-    height: 4rem;
+    // height: 4rem;
     border-radius: 4px;
-    padding: 0 3.2rem;
+    padding: 1.6rem 3.2rem;
     border: none;
     background-color: $color-venice-blue;
 
@@ -77,10 +80,12 @@
   &__step-title {
     color: $color-venice-blue;
     margin-bottom: 0.8rem;
+    font-size: 2.4rem;
   }
 
   &__step-text {
     color: $color-white;
+    font-size: 2rem;
   }
 
   &__button-container {

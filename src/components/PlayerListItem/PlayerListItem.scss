@@ -29,6 +29,7 @@
   }
 
   &__headlines {
+    padding-top: 0.8rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -36,7 +37,7 @@
   }
 
   &__name {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
   &__distance {
     font-size: 1.6rem;
@@ -51,7 +52,7 @@
   &__sports-tag {
     background-color: $color-tacao;
     color: $color-venice-blue;
-    font-size: 1.3rem;
+    font-size: 2rem;
     margin: 0.8rem;
     padding: 0.8rem;
     border-radius: 8px;
@@ -65,12 +66,15 @@
   }
 
   &__sports-tag-text {
+    font-size: 2rem;
     margin-left: 0.8rem;
   }
 
   &__bio {
     color: $color-white;
     font-style: italic;
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
 
   &__contact-button-container {
@@ -80,17 +84,25 @@
   &__contact-button {
     width: 100%;
     cursor: pointer;
-    color: $color-white;
-    font-size: 2rem;
+    color: $color-madison;
+    font-size: 2.4rem;
     height: 4rem;
-
     border-radius: 4px;
     padding: 0 3.2rem;
     border: none;
     background-color: $color-porsche;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &:hover {
       background-color: $color-madison;
     }
+  }
+
+  &__contact-button-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 1.6rem;
   }
 }
