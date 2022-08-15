@@ -3,7 +3,7 @@
 .signup-container {
   padding: 2.4rem 1.6rem;
   background-color: $color-porsche;
-  height: calc(100vh - 147.5px);
+  height: 200vh;
 }
 
 .signup {
@@ -13,7 +13,7 @@
   }
 
   &__form-label {
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     color: $color-madison;
     display: block;
     padding: 1.6rem 0;
@@ -22,11 +22,13 @@
       flex-basis: 50%;
       display: flex;
       justify-content: flex-start;
+      align-items: center;
     }
   }
 
   &__form-text-input {
     display: block;
+    font-size: 2.4rem;
     width: 100%;
     min-height: 3.6rem;
     border-radius: 4px;
@@ -39,6 +41,7 @@
     }
 
     &::placeholder {
+      font-size: 1.6rem;
       color: $color-madison;
     }
   }
@@ -50,17 +53,16 @@
 
   &__form-checkbox {
     width: 20px;
-    margin-left: 10px;
+    margin-right: 10px;
   }
 
   &__form-button {
     cursor: pointer;
     color: $color-white;
-    font-size: 2rem;
-    height: 4rem;
+    font-size: 2.4rem;
     margin-top: 2.4rem;
     border-radius: 4px;
-    padding: 0 3.2rem;
+    padding: 1.6rem 3.2rem;
     border: none;
     background-color: $color-venice-blue;
 

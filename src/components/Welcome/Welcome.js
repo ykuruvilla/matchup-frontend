@@ -9,7 +9,7 @@ const Welcome = () => {
       <div className="welcome__hero-container">
         <div className="welcome__hero-overlay">
           <h1 className="welcome__hero-text">
-            Find workout partners in your area
+            Find sport partners in your area
           </h1>
           <NavLink className="welcome__signup-link" to="/signup">
             <button className="welcome__signup-button">Get Started</button>
@@ -44,14 +44,14 @@ const Welcome = () => {
           </p>
         </div>
       </div>
-      <div className="welcome__button-container">
+      {/* <div className="welcome__button-container">
         <NavLink
           className="welcome__signup-link welcome__signup-link--bottom"
           to="/signup"
         >
           <button className="welcome__signup-button">Sign Up</button>
         </NavLink>
-      </div>
+      </div> */}
     </div>
   );
 };

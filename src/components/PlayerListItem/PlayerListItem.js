@@ -43,7 +43,7 @@ const PlayerListItem = ({ currentUser, player }) => {
             <button onClick={joinRoom} className="player__contact-button">
               Message
               <span className="player__contact-button-icon">
-                <AiIcons.AiFillMessage />{" "}
+                <AiIcons.AiFillMessage />
               </span>
             </button>
             <Chat

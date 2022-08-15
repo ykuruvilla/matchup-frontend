@@ -96,7 +96,6 @@ const Signup = ({ setCurrentUser, checked, setChecked, setIsLoggedIn }) => {
         </label>
         <div className="signup__form-sports">
           <label className="signup__form-label signup__form-label--sport">
-            Badminton
             <input
               type="checkbox"
               className="signup__form-checkbox"
@@ -107,9 +106,9 @@ const Signup = ({ setCurrentUser, checked, setChecked, setIsLoggedIn }) => {
                 setChecked({ ...checked, badminton: !checked.badminton })
               }
             />
+            Badminton
           </label>
           <label className="signup__form-label signup__form-label--sport">
-            Bowling
             <input
               type="checkbox"
               className="signup__form-checkbox"
@@ -120,9 +119,9 @@ const Signup = ({ setCurrentUser, checked, setChecked, setIsLoggedIn }) => {
                 setChecked({ ...checked, bowling: !checked.bowling })
               }
             />
+            Bowling
           </label>
           <label className="signup__form-label signup__form-label--sport">
-            Golf
             <input
               type="checkbox"
               className="signup__form-checkbox"
@@ -131,9 +130,9 @@ const Signup = ({ setCurrentUser, checked, setChecked, setIsLoggedIn }) => {
               defaultChecked={checked.golf}
               onChange={() => setChecked({ ...checked, golf: !checked.golf })}
             />
+            Golf
           </label>
           <label className="signup__form-label signup__form-label--sport">
-            Squash
             <input
               type="checkbox"
               className="signup__form-checkbox"
@@ -144,10 +143,10 @@ const Signup = ({ setCurrentUser, checked, setChecked, setIsLoggedIn }) => {
                 setChecked({ ...checked, squash: !checked.squash })
               }
             />
+            Squash
           </label>
 
           <label className="signup__form-label signup__form-label--sport">
-            Table Tennis
             <input
               type="checkbox"
               className="signup__form-checkbox"
@@ -158,9 +157,9 @@ const Signup = ({ setCurrentUser, checked, setChecked, setIsLoggedIn }) => {
                 setChecked({ ...checked, tableTennis: !checked.tableTennis })
               }
             />
+            Table Tennis
           </label>
           <label className="signup__form-label signup__form-label--sport">
-            Tennis
             <input
               type="checkbox"
               className="signup__form-checkbox"
@@ -171,6 +170,7 @@ const Signup = ({ setCurrentUser, checked, setChecked, setIsLoggedIn }) => {
                 setChecked({ ...checked, tennis: !checked.tennis })
               }
             />
+            Tennis
           </label>
         </div>
         <button className="signup__form-button">Create Account</button>

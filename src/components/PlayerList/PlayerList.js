@@ -34,10 +34,7 @@ const PlayerList = ({ currentUser }) => {
         };
 
         const distanceOne = haversine(start, end, { unit: "meter" }) / 1000;
-        const distance =
-          Math.round(distanceOne * 10) / 10 < 1
-            ? "<1"
-            : Math.round(distanceOne * 10);
+        const distance = Math.round(distanceOne * 10) / 10;
 
         const updatedPlayer = { ...player, distance: distance };
 
